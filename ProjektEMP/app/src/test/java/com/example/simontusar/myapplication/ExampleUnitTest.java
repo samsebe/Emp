@@ -1,4 +1,4 @@
-package com.example.simontusar.projektemp;
+package com.example.simontusar.myapplication;
 
 import org.junit.Test;
 

@@ -1,5 +1,15 @@
 <resources>
-    <string name="app_name">ProjektEMP</string>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="spinner_item">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -13,4 +23,5 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+
 </resources>
