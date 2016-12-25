@@ -1,9 +1,8 @@
-package com.example.simontusar.myapplication;
+package com.example.simontusar.projektemp;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -145,9 +144,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
      * errors are presented and no actual login attempt is made.
      */
     private void attemptLogin() {
-                                                                                                    //preklopim na novo okono
-        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
-        startActivity(intent);
         if (mAuthTask != null) {
             return;
         }
